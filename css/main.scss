@@ -168,7 +168,7 @@ a.footer-btn {
     background-color: hsl(var(--Pink));
     font-weight: var(--fw-bold700);
     cursor: pointer;
-    width: min(60%, 400px);
+    width: min(60%, 25em);
     font-size: clamp(0.63rem, 0.91vw + 0.4rem, 1.13rem);
     transition: 200ms ease all;
 
@@ -249,6 +249,7 @@ header {
     background-size: cover;
     background-position: center center;
     background-image: url(/assets/images/bg-hero-mobile.svg);
+    background-color: hsl(var(--verypaleCyan));
 }
 
 .outer-flex {
@@ -455,6 +456,10 @@ i.fa-brands {
     a.main-btn {
         padding-block: 20px;
         margin: 0;
+    }
+
+    .outer-flex {
+        padding-bottom: 344px;
     }
 
     .bg-pattern {
