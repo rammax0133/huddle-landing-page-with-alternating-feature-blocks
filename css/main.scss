@@ -127,6 +127,9 @@ p {
 a.header-btn {
     background-color: var(--white);
     font-weight: var(--fw-bold700);
+    text-align: center;
+    padding-block: 10px;
+    width: min(35%, 12.5rem);
     font-size: clamp(0.63rem, 0.38vw + 0.54rem, 0.88rem);
     transition: 200ms ease all;
 
